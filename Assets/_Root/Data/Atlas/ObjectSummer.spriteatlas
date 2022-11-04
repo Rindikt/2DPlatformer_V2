@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ObjectSummer
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a23a9f0a19721ec4fbb3a2ea08ed0568, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 06529520132bfd84b98f3c37596af4b4, type: 3}
+  - {fileID: 21300000, guid: 6e34f632d1579d143acf23c7b1ee1a98, type: 3}
+  - {fileID: 21300000, guid: 4b3db5f456e36384a893567006f1b135, type: 3}
+  - {fileID: 21300000, guid: a698799596b77ac4f83c3448ec68212f, type: 3}
+  - {fileID: 21300000, guid: 829da216283476e4db77a9df42d54745, type: 3}
+  - {fileID: 21300000, guid: a8c31167988b6994fb60e1bc575af600, type: 3}
+  - {fileID: 21300000, guid: 0315313904f08a24287d97e1f70bc361, type: 3}
+  - {fileID: 21300000, guid: e1b74d4b8dbf0fb4b8adeb3cb001a6e8, type: 3}
+  - {fileID: 21300000, guid: 1f23b3db111e57749afd823d7927cfb6, type: 3}
+  - {fileID: 21300000, guid: bf6e6eeb4bf82a6409eada7f50a6c40f, type: 3}
+  - {fileID: 21300000, guid: 0fb7cf5d641c1cc44a44700b1e1e717c, type: 3}
+  - {fileID: 21300000, guid: 05a12b4f7a9b71240a02bbb4bd164bf2, type: 3}
+  - {fileID: 21300000, guid: a8ed6f9fa7b2cd947b8b4047ef34ae09, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Sign_1
+  - Tree_3
+  - Tree_1
+  - Bush (1)
+  - Mushroom_1
+  - Stone
+  - Bush (3)
+  - Crate
+  - Sign_2
+  - Tree_2
+  - Mushroom_2
+  - Bush (4)
+  - Bush (2)
+  m_RenderDataMap: {}
+  m_Tag: ObjectSummer
+  m_IsVariant: 0
