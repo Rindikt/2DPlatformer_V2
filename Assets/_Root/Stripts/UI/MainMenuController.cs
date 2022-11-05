@@ -15,6 +15,7 @@ namespace UI
         {
             _profilePlayer = profilePlayer;
             _menuView = LoadView(placeForUI);
+            Debug.Log("it");
             _menuView.Init(StartGame, Seting, Exit);
         }
 
@@ -28,7 +29,7 @@ namespace UI
         }
 
         private void StartGame() => 
-            _profilePlayer.CurrentState.Value = GameState.Start;
+            _profilePlayer.CurrentState.Value = GameState.Game;
 
         private void Seting() =>
             _profilePlayer.CurrentState.Value = GameState.Setting;

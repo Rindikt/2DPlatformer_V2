@@ -13,6 +13,7 @@ namespace UI
         {
             _profilePlayer = profilePlayer;
             _view = LaodView(placeForUI);
+            _view.Init(StartMenu);
         }
 
         private SettingMenuView LaodView(Transform placeForUI)
@@ -23,5 +24,7 @@ namespace UI
 
             return objectView.GetComponent<SettingMenuView>();
         }
+        private void StartMenu() =>
+            _profilePlayer.CurrentState.Value = GameState.Start;
     }
 }

@@ -16,7 +16,6 @@ internal class MainController : BaseController
     {
         _placeForUI = placeForUI;
         _profilePlayer = profilePlayer;
-
         _profilePlayer.CurrentState.SubscribeOnChange(OnChangeGameState);
         OnChangeGameState(_profilePlayer.CurrentState.Value);
     }
@@ -30,10 +29,9 @@ internal class MainController : BaseController
     {
             switch (gameState)
             {
-                case GameState.None:
-                    break;
                 case GameState.Start:
-                    _mainMenuController = new MainMenuController(_placeForUI, _profilePlayer);
+                _mainMenuController = new MainMenuController(_placeForUI, _profilePlayer);
+                        Debug.Log("it1");
                 _settingMenuController.Dispose();
                 _gameController.Dispose();
                 break;

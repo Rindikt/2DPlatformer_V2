@@ -8,6 +8,7 @@ namespace Profile
 
         public ProfilePlayer(GameState initailState)
         {
+            CurrentState = new SubscriptionProperty<GameState>();
             CurrentState.Value = initailState;
         }
     }
