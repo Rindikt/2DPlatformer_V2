@@ -14,6 +14,4 @@ public sealed class Root : MonoBehaviour
         var profilePlayer = new ProfilePlayer(gameState);
         _mainController = new MainController(_placeForUI, profilePlayer);
     }
-
-
 }

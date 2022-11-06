@@ -3,22 +3,22 @@ using Object = UnityEngine.Object;
 
 namespace Game
 {
-    internal class GameControllerOneLevel : BaseController
+    internal class GameControllerLevelOne : BaseController
     {
-        private readonly string resurcePath = "";
+        private readonly string resurcePath = "Prefabs/GameLevelOne";
 
         private Transform _placeForLevel;
         private GameLevelOneView _view;
 
-        public GameControllerOneLevel(Transform placeForLevel)
+        public GameControllerLevelOne()
         {
-            _view = LoadView(placeForLevel);
+            _view = LoadView();
         }
 
-        private GameLevelOneView LoadView(Transform placeForLevel)
+        private GameLevelOneView LoadView()
         {
             GameObject prefab = Resources.Load<GameObject>(resurcePath);
-            GameObject objectView = Object.Instantiate(prefab, placeForLevel);
+            GameObject objectView = Object.Instantiate(prefab);
             AddGameObject(objectView);
 
             return objectView.GetComponent<GameLevelOneView>();

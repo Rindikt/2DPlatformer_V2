@@ -31,13 +31,106 @@ SpriteAtlas:
       enableAlphaDilation: 0
     secondaryTextureSettings: {}
     variantMultiplier: 1
-    packables: []
+    packables:
+    - {fileID: 102900000, guid: 14798151c5540294c8bf26c4e44f859e, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8ee27a001d7d42b41837950c5b373b08, type: 3}
+  - {fileID: 21300000, guid: 26d05ae0ec2aba747a1c62e84a6c39ab, type: 3}
+  - {fileID: 21300000, guid: a5fdbe0125ebc4046ad20d4eeaf73f9f, type: 3}
+  - {fileID: 21300000, guid: e611aea1bd9ed2248821f88734f51904, type: 3}
+  - {fileID: 21300000, guid: 462851d1f148c3243aed0eafc7380dbd, type: 3}
+  - {fileID: 21300000, guid: 80f2a4125630fca44bc445d806432b14, type: 3}
+  - {fileID: 21300000, guid: 0d0055d257ae81b4fa6bb215aed1280c, type: 3}
+  - {fileID: 21300000, guid: 1f8e0b64b77b54e49aea6d0da2b82376, type: 3}
+  - {fileID: 21300000, guid: 37adba9482ef237469e69f57955ff5e4, type: 3}
+  - {fileID: 21300000, guid: 50a358c47051f0c449d0c845ab783dc2, type: 3}
+  - {fileID: 21300000, guid: e45ec105a05e1af4890a7ecaf1ffe0da, type: 3}
+  - {fileID: 21300000, guid: 9aa441f523b5c7b4c91e040bd8a3c40d, type: 3}
+  - {fileID: 21300000, guid: cfe694f58f934e14cb3b08ee902e3bc3, type: 3}
+  - {fileID: 21300000, guid: da45ce5615d38db479fd32a606be44aa, type: 3}
+  - {fileID: 21300000, guid: 45354b76b3fee8a49a2504d298bc1b70, type: 3}
+  - {fileID: 21300000, guid: bd71d396dd9a0034ab1f3f0f407b0d7f, type: 3}
+  - {fileID: 21300000, guid: 4b1786d6935721a48b219d0e12a8e8f0, type: 3}
+  - {fileID: 21300000, guid: 6e685cf675c0a4142852a0d4182847a1, type: 3}
+  - {fileID: 21300000, guid: 978fe2476c4f1254e985e44635dac47f, type: 3}
+  - {fileID: 21300000, guid: d562c997bb97b914ba14c6e8f9150a6e, type: 3}
+  - {fileID: 21300000, guid: 1a8bdfe7b28718948b16997dfdb0fc64, type: 3}
+  - {fileID: 21300000, guid: 952be808ef8d931489ad3e8a405367ec, type: 3}
+  - {fileID: 21300000, guid: 9428e038c85688245a9522815500958e, type: 3}
+  - {fileID: 21300000, guid: ebec3f78117fd8f438f37f0b4efac70e, type: 3}
+  - {fileID: 21300000, guid: 2594d9497fb10b54c995f3b255e622be, type: 3}
+  - {fileID: 21300000, guid: 9f8ec099d4e85964086508d6b94b74a3, type: 3}
+  - {fileID: 21300000, guid: 24c5b6a9702cb1c47b7cea44c66d2e08, type: 3}
+  - {fileID: 21300000, guid: 3eb322e9af0fa5342965590903cd8acd, type: 3}
+  - {fileID: 21300000, guid: 0b021a2aa1e7fab43951ed09e31ee114, type: 3}
+  - {fileID: 21300000, guid: fcc58e2a7e19a8a44ae8b69c1b3710a3, type: 3}
+  - {fileID: 21300000, guid: f4b3bd4a2eaac1045b05ca705a295b10, type: 3}
+  - {fileID: 21300000, guid: f28768aa6c788e24386edae8ac354b84, type: 3}
+  - {fileID: 21300000, guid: 191934da0b1bf6c44806c035cfabd1b3, type: 3}
+  - {fileID: 21300000, guid: 8e4cf03bb9e318f4e96c4a967a9edbe4, type: 3}
+  - {fileID: 21300000, guid: 89cf6e5b18a85f3408fc712c16cf5b52, type: 3}
+  - {fileID: 21300000, guid: b0d8e44c1b689d248aeceb499ffe0f40, type: 3}
+  - {fileID: 21300000, guid: 496dc7dcac6c70c45a2039845968ab9a, type: 3}
+  - {fileID: 21300000, guid: fd4c962dd4f7b5c4582bb69061766c99, type: 3}
+  - {fileID: 21300000, guid: 6d712d5dae1179b458c846bfd71186f4, type: 3}
+  - {fileID: 21300000, guid: 4ad7736da6abb45489bc1fbb5aa4b026, type: 3}
+  - {fileID: 21300000, guid: 4d9b276def0380948acec90045650bdd, type: 3}
+  - {fileID: 21300000, guid: 73256b7d501e8e8468a7584034d46400, type: 3}
+  - {fileID: 21300000, guid: 2421bc2eed505e14382e700c22aad5ce, type: 3}
+  - {fileID: 21300000, guid: 7fc6133e1bc9ad04295bcc9582e9b18b, type: 3}
+  - {fileID: 21300000, guid: ae1104ce539ecde4e80561c3ec1eaff5, type: 3}
+  - {fileID: 21300000, guid: 0ea6bdeefa19c3045947b9e1b714c549, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - green__0035_fire_1
+  - green__0022_dead_1
+  - green__0013_run_2
+  - green__0007_walk_2
+  - green__0025_dead_4
+  - green__0043_fire_9
+  - green__0038_fire_4
+  - green__0014_run_3
+  - green__0026_dead_5
+  - green__0044_fire_10
+  - green__0001_idle_2
+  - green__0010_walk_5
+  - green__0024_dead_3
+  - green__0030_jump_4
+  - green__0000_idle_1
+  - green__0005_turn_3
+  - green__0021_hurt_4
+  - green__0036_fire_2
+  - green__0029_jump_3
+  - green__0016_run_5
+  - green__0008_walk_3
+  - green__0041_fire_7
+  - green__0020_hurt_3
+  - green__0002_idle_3
+  - green__0034_attack_4
+  - green__0037_fire_3
+  - green__0018_hurt_1
+  - green__0006_walk_1
+  - green__0031_attack_1
+  - green__0009_walk_4
+  - green__0045_fire_11
+  - green__0023_dead_2
+  - green__0015_run_4
+  - green__0039_fire_5
+  - green__0017_run_6
+  - green__0028_jump_2
+  - green__0042_fire_8
+  - green__0003_turn_1
+  - green__0032_attack_2
+  - green__0011_walk_6
+  - green__0019_hurt_2
+  - green__0033_attack_3
+  - green__0040_fire_6
+  - green__0012_run_1
+  - green__0004_turn_2
+  - green__0027_jump_1
   m_RenderDataMap: {}
   m_Tag: Player
   m_IsVariant: 0

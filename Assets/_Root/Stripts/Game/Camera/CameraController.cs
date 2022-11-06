@@ -5,16 +5,15 @@ namespace Game
 {
     internal class CameraController
     {
-        private Camera _camera;
+        private Camera _camera = Camera.main;
         private Transform _player;
         private float _offsetSmoothing = 2;
         private float _offset = -4f;
         private float _minX = -12f;
         private float _minY = 0f;
 
-        public CameraController(Camera camera, Transform player)
+        public CameraController(Transform player)
         {
-            _camera = camera;
             _player = player;
             Start();
         }

@@ -7,7 +7,8 @@ namespace Profile
         Start,
         Setting,
         Exit,
-        Game
+        Game,
+        FinishMenu
 
 
     }

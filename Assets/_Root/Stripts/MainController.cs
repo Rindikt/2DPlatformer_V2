@@ -18,11 +18,14 @@ internal class MainController : BaseController
         _profilePlayer = profilePlayer;
         _profilePlayer.CurrentState.SubscribeOnChange(OnChangeGameState);
         OnChangeGameState(_profilePlayer.CurrentState.Value);
+        Debug.Log("it3");
     }
 
     protected override void OnDispose()
     {
         _mainMenuController?.Dispose();
+        _settingMenuController.Dispose();
+        _gameController.Dispose();
     }
 
     private void OnChangeGameState(GameState gameState)
